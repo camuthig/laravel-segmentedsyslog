@@ -15,7 +15,7 @@ Segmented Syslog is tested on Laravel version 4.2 and will work on any PHP syste
 1. Install segmented syslog
 
   ```php
-  composer require camuthig/segmentedsyslog:dev-master
+  composer require camuthig/laravel-segmentedsyslog:dev-master
   ```
 1. Replace the standard LogServiceProvider for SegmentedSyslogServiceProvider in config/app.php. Don't worry, the provider extends the base Laravel provider, so all functionality is still available.
 
@@ -28,6 +28,7 @@ Segmented Syslog is tested on Laravel version 4.2 and will work on any PHP syste
   ),
   ```
 1. Update your Log handler in global.php
+
   ```php
   Log::useSegmentedSyslog();
   ```
