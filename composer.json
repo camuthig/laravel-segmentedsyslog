@@ -1,5 +1,5 @@
 {
-    "name": "camuthig/segmentedsyslog",
+    "name": "camuthig/laravel-segmentedsyslog",
     "description": "A Laravel Syslog Handler to handle maximum message lengths enforced by certain syslog implementations.",
     "authors": [
         {
